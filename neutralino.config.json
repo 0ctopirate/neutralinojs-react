@@ -1,0 +1,32 @@
+{
+  "applicationId": "react.neutralino.sample",
+  "version": "0.1.0",
+  "defaultMode": "window",
+  "documentRoot": "/dist/",
+  "url": "/",
+  "enableServer": true,
+  "enableNativeAPI": true,
+  "tokenSecurity": "one-time",
+  "exportAuthInfo": false,
+  "nativeAllowList": [
+    "app.*",
+    "os.open"
+  ],
+  "modes": {
+    "window": {
+      "title": "opus8",
+      "minWidth": 800,
+      "minHeight": 500,
+      "icon": "/src/assets/icons/icon.png",
+      "enableInspector": true
+    }
+  },
+  "cli": {
+    "binaryName": "reactneutralino",
+    "resourcesPath": "/dist/",
+    "extensionsPath": "/extensions/",
+    "clientLibrary": "/neutralino.js",
+    "binaryVersion": "4.5.0",
+    "clientVersion": "3.4.0"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "name": "neutralinojs-react",
+  "version": "0.1.0",
+  "main": "src/index.js",
+  "repository": "https://github.com/0ctopirate/neutralinojs-react",
+  "author": "0ctopirate",
+  "license": "MIT",
+  "scripts": {
+    "start": "webpack --mode development --watch",
+    "build:dev": "webpack --mode development",
+    "build:prod": "webpack --mode production",
+    "clean": "rm -rf dist/"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.18.0",
+    "@babel/preset-env": "^7.18.0",
+    "@babel/preset-react": "^7.17.12",
+    "babel-loader": "^8.2.5",
+    "copy-webpack-plugin": "^11.0.0",
+    "css-loader": "^6.7.1",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^5.5.0",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.72.1",
+    "webpack-cli": "^4.9.2"
+  },
+  "dependencies": {
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0",
+    "react-router-dom": "^6.3.0"
+  }
+}
