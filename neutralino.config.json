@@ -14,7 +14,7 @@
   ],
   "modes": {
     "window": {
-      "title": "opus8",
+      "title": "neutralinojs-react",
       "minWidth": 800,
       "minHeight": 500,
       "icon": "/src/assets/icons/icon.png",
